@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: azure;
+}
+
+.pay{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.back{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.back a{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.back a:hover{
+    color: black;
+}
+
+.thank{
+    font-size: 22px;
+    margin-top: 30px;
+    color: burlywood;
+}
+
+.log{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+}
+
+.log a{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.log a:hover{
+    color: black;
+}

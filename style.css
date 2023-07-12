@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5;
+    font-family: sans-serif;
+    background: azure;
+}
+
+.container{
+    width: 825px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* text-align: center; */
+}
+
+.navbar{
+    width: 100px;
+}
+
+.icon{
+    width: 100px;
+    float: left;
+}
+
+.logo{
+    font-size: 20px;
+    position: absolute;
+    top: 1.5%;
+    left: 5%;
+    font-style: italic;
+    letter-spacing: 1.8px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.logo a:hover{
+    color: black;
+}
+
+.top{
+    font-size: 18px;
+    font-style: italic;
+    position: absolute;
+    top: 1.5%;
+    right: 3.5%;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.top a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.top a:hover{
+    color: black;
+}
+
+.neno{
+    font-size: 22px;
+    gap: 5rem;
+    font-style: italic;
+    color: burlywood;
+    position: absolute;
+    top: 18%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+}
+
+.w{
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.1px;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+
+.olx{
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.1px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.b{
+    width: 225px;
+    height: 45px;
+    background: burlywood;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 85px; 
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+
+.b-1{
+    text-align: center;
+    margin-top: 13px;
+}
+
+.b a{
+    text-decoration: none;
+}
+
+.b a:hover{
+    color: black;
+}
+
+.i{
+    margin-left: 10px;
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    padding-left: 40px;
+    padding-right: calc(20px + 20px);
+}
+
+.pd{
+    font-size: 18px;
+    font-style: italic;
+    position: absolute;
+    top: 138%;
+    left: 48%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* .t-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    top: 150%;
+    left: 2%;
+} */
+
+/* .img{
+    float: left;
+    margin-top: 490px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    width: 450px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding-bottom: 0;
+} */
+
+.t-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    position: absolute;
+    top: 150%;
+    left: 2%;
+}
+
+.img{
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 3px;
+    width: 400px;
+    height: 400px;
+}
+
+/* .red{
+    font-size: 20px;
+} */
+
+.red a{
+    text-decoration: none;
+}
+
+.img a:hover{
+    color: black;
+}
+
+.mr{
+    position: absolute;
+    top: 405%;
+    left: 47%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mr a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.mr a:hover{
+    color: black;
+}
+
+.bt{
+    height: 40px;
+    width: 75px;
+    color: white;
+    background: burlywood;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.q{
+    position: absolute;
+    top: 420%;
+    left: 2%;
+}
+
+.q{
+    display: flex;
+    gap: 18rem;
+    background: orange;
+    position: absolute;
+    left: 2%;
+    width: 1250px;
+}
+
+.tact{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.now{
+    text-transform: uppercase;
+    width: 135px;
+    height: 45px;
+    color: white;
+    margin-left: 1px;
+}
+
+.now a{
+    text-decoration: none;
+    color: white;
+}
+
+.now a:hover{
+    color: black;
+}
+
+.num{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.ad{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.dere{
+    text-transform: uppercase;
+    width: 175px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.dere a{
+    text-decoration: none;
+    color: white;
+}
+
+.dere a:hover{
+    color: black;
+}
+
+.bh{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.mail a{
+    color:white;
+    text-decoration: none;
+}
+
+.mail a:hover{
+    color: black;
+}
